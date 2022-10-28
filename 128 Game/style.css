@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: inherit; */
+}
+
+html {
+  font-size: 62.5%;
+  /* box-sizing: border-box; */
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  height: 100vh;
+  color: white;
+  background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  text-align: center;
+}
+hr {
+  width: 400px;
+  margin: auto;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 400px;
+  height: 400px;
+  background-color: antiquewhite;
+  border-radius: 20px;
+}
+
+.tile {
+  font-size: 40px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 90px;
+  border: 5px solid #251e22;
+}
+.tile2 {
+  background-color: #c59fb8;
+  color: white;
+}
+
+.tile4 {
+  background-color: #b679a4;
+  color: white;
+}
+
+.tile8 {
+  background-color: #ca60ac;
+  color: white;
+}
+
+.tile16 {
+  background-color: #d309b8;
+  color: white;
+}
+.tile32 {
+  background-color: #e25175;
+  color: white;
+}
+.tile64 {
+  background-color: #ff2020;
+  color: white;
+}
+.hidden {
+  display: none;
+}
+.result {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+
+  font-size: 35px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #251e22;
+
+  line-height: 100px;
+  text-align: center;
+
+  width: 300px;
+  height: 100px;
+  background-color: antiquewhite;
+  border-radius: 20px;
+}
+.player--winner {
+  background-color: #32ec0d;
+}
+.player--loser {
+  background-color: #cc1919;
+}
